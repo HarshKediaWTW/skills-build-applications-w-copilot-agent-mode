@@ -1,0 +1,109 @@
+.app-shell {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 12% 10%, rgba(14, 165, 233, 0.16) 0%, transparent 36%),
+    radial-gradient(circle at 84% 14%, rgba(16, 185, 129, 0.14) 0%, transparent 32%),
+    linear-gradient(180deg, #f0f9ff 0%, #ffffff 48%, #f8fafc 100%);
+  color: #1f2937;
+}
+
+.app-navbar {
+  background: linear-gradient(90deg, #0f172a 0%, #155e75 55%, #0891b2 100%);
+}
+
+.app-navbar .nav-link,
+.app-navbar .navbar-brand {
+  color: #e0f2fe;
+}
+
+.app-navbar .nav-link:hover,
+.app-navbar .navbar-brand:hover {
+  color: #ffffff;
+}
+
+.app-brand-logo {
+  width: 38px;
+  height: 38px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.45);
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.35);
+}
+
+.app-brand-text {
+  letter-spacing: 0.02em;
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+h1,
+h2,
+.h1,
+.h2,
+.h3 {
+  color: #0f172a;
+}
+
+a,
+.btn-link {
+  color: #0c4a6e;
+}
+
+a:hover,
+.btn-link:hover {
+  color: #0369a1;
+}
+
+.table thead th {
+  letter-spacing: 0.02em;
+  background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%);
+  color: #f8fafc;
+  border-color: #334155;
+}
+
+.table tbody tr td {
+  vertical-align: middle;
+  color: #1f2937;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  background-color: rgba(14, 165, 233, 0.08);
+}
+
+.table-hover > tbody > tr:hover > * {
+  background-color: rgba(56, 189, 248, 0.18);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #0284c7 0%, #0ea5e9 100%);
+  border-color: #0284c7;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background: linear-gradient(135deg, #0369a1 0%, #0284c7 100%);
+  border-color: #0369a1;
+}
+
+.btn-outline-primary {
+  color: #0c4a6e;
+  border-color: #0ea5e9;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  background-color: #0ea5e9;
+  border-color: #0ea5e9;
+}
+
+.modal-content {
+  border-radius: 1rem;
+  border: 1px solid #bae6fd;
+}
+
+.form-control:focus {
+  border-color: #38bdf8;
+  box-shadow: 0 0 0 0.2rem rgba(14, 165, 233, 0.2);
+}
